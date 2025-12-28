@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Frontend Developer portfolio of Harsh Sagathia. I build fast, modern, responsive websites using HTML, CSS, JavaScript, React, and APIs."
+    />
+    <meta
+      name="keywords"
+      content="Frontend Developer, Web Developer, React, JavaScript, Portfolio"
+    />
+    <meta name="author" content="Harsh Sagathia" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="Harsh Sagathia | Frontend Developer" />
+    <meta
+      property="og:description"
+      content="Modern frontend developer building fast, responsive, and clean web applications."
+    />
+    <meta
+      property="og:image"
+      content="https://yourdomain.com/assets/og-preview.png"
+    />
+    <meta property="og:url" content="https://yourdomain.com" />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Harsh Sagathia | Frontend Developer</title>
+  </head>
+  <body>
+    <!-- =============================== -->
+    <!-- DARK NEON DEV-STYLE NAVBAR     -->
+    <!-- =============================== -->
+
+    <nav
+      class="w-full bg-[#0D1117] border-b border-[#161B22] font-['JetBrains_Mono'] fixed top-0 left-0 z-50"
+    >
+      <div
+        class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between"
+      >
+        <!-- Left: Name + Role -->
+        <a href="#" class="flex flex-col">
+          <span class="text-xl font-semibold text-[#00FF9D] tracking-wide">
+            Harsh Sagathia
+          </span>
+          <span class="text-sm text-gray-400 -mt-1"> Front-end Developer </span>
+        </a>
+
+        <!-- Desktop Menu -->
+        <ul class="hidden md:flex space-x-8 text-gray-300 text-sm font-medium">
+          <li>
+            <a href="#home" class="hover:text-[#4CC9F0] transition">Home</a>
+          </li>
+          <li>
+            <a href="#about" class="hover:text-[#4CC9F0] transition">About</a>
+          </li>
+          <li>
+            <a href="#projects" class="hover:text-[#4CC9F0] transition"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a href="#skills" class="hover:text-[#4CC9F0] transition">Skills</a>
+          </li>
+          <li>
+            <a href="#contact" class="hover:text-[#4CC9F0] transition"
+              >Contact</a
+            >
+          </li>
+        </ul>
+
+        <!-- Mobile Menu Button -->
+        <button
+          id="nav-toggle"
+          class="md:hidden text-[#00FF9D] text-2xl focus:outline-none"
+        >
+          &#9776;
+        </button>
+      </div>
+
+      <!-- Mobile Dropdown -->
+      <div
+        id="mobile-menu"
+        class="hidden md:hidden px-6 pb-4 bg-[#0D1117] border-t border-[#161B22]"
+      >
+        <ul class="flex flex-col space-y-3 text-gray-300 text-sm">
+          <li>
+            <a href="#home" class="hover:text-[#4CC9F0] transition">Home</a>
+          </li>
+          <li>
+            <a href="#about" class="hover:text-[#4CC9F0] transition">About</a>
+          </li>
+          <li>
+            <a href="#projects" class="hover:text-[#4CC9F0] transition"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a href="#skills" class="hover:text-[#4CC9F0] transition">Skills</a>
+          </li>
+          <li>
+            <a href="#contact" class="hover:text-[#4CC9F0] transition"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- ==================================== -->
+    <!-- DARK NEON HERO SECTION (TAILWIND) – CENTERED TEXT -->
+    <!-- ==================================== -->
+
+    <section
+      id="home"
+      class="w-full bg-[#0D1117] text-gray-300 font-['JetBrains_Mono']"
+    >
+      <div
+        class="max-w-4xl mx-auto px-6 py-32 flex flex-col items-center text-center space-y-8"
+      >
+        <!-- Main Heading -->
+        <h1
+          class="text-4xl md:text-5xl font-semibold leading-tight text-[#00FF9D]"
+        >
+          Hi, I'm Harsh.<br />
+          <span class="text-gray-100">Frontend & Web Developer.</span>
+        </h1>
+
+        <!-- Subtext -->
+        <p class="text-gray-400 text-sm md:text-base max-w-md">
+          I build fast, modern, and responsive websites using clean UI, reusable
+          components, and optimized JavaScript. My focus is on performance,
+          accessibility, and user-first design.
+        </p>
+
+        <!-- CTA Buttons -->
+        <div
+          class="flex flex-col sm:flex-row sm:space-x-4 space-y-3 sm:space-y-0"
+        >
+          <!-- View Projects -->
+          <a
+            href="#projects"
+            class="px-6 py-3 bg-[#00FF9D] text-[#0D1117] font-semibold border border-[#00FF9D] rounded-md shadow-md hover:bg-[#0D1117] hover:text-[#00FF9D] transition hover:scale-105"
+          >
+            View Projects
+          </a>
+
+          <!-- Download Resume -->
+          <a
+            href="assets/Harsh Resume (Web dev).pdf"
+            download
+            class="px-6 py-3 border border-[#00FF9D] text-[#00FF9D] rounded-md hover:bg-[#00FF9D] hover:text-[#0D1117] transition hover:scale-105"
+          >
+            Download Resume
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================================== -->
+    <!-- DARK NEON ABOUT SECTION (TAILWIND)  -->
+    <!-- ==================================== -->
+
+    <section
+      id="about"
+      class="w-full bg-[#0D1117] text-gray-300 font-['JetBrains_Mono']"
+    >
+      <div
+        class="max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center"
+      >
+        <!-- ============================ -->
+        <!-- LEFT: IMAGE / ILLUSTRATION  -->
+        <!-- ============================ -->
+        <div class="flex justify-center md:justify-start">
+          <img
+            src="assets/Harsh Professional image.jpg"
+            alt="Harsh Avatar"
+            class="w-64 md:w-72 rounded-full drop-shadow-[0_0_15px_#00FF9D] hover:scale-105 transition-transform duration-300"
+          />
+        </div>
+
+        <!-- ============================ -->
+        <!-- RIGHT: TEXT CONTENT          -->
+        <!-- ============================ -->
+        <div class="space-y-6">
+          <!-- Section Title -->
+          <h2 class="text-3xl font-semibold text-[#00FF9D]">About Me</h2>
+
+          <!-- Description -->
+          <p class="text-gray-400 text-sm md:text-base leading-relaxed">
+            Hi, I'm Harsh, a Frontend Developer currently learning Full Stack
+            development. I love building clean, responsive, and modern websites
+            that offer smooth user experiences.
+          </p>
+
+          <p class="text-gray-400 text-sm md:text-base leading-relaxed">
+            I work with
+            <span class="text-[#4CC9F0]"
+              >HTML, CSS, JavaScript, React, Tailwind CSS</span
+            >, and tools like
+            <span class="text-[#4CC9F0]">Git and VS Code</span>, creating
+            functional UI/UX with responsive design using Flexbox and Grid.
+          </p>
+
+          <p class="text-gray-400 text-sm md:text-base leading-relaxed">
+            I'm currently pursuing BCA (3rd year) and actively looking for web
+            development internships to apply my skills in real-world projects. I
+            enjoy UI/UX design, solving problems, creating animations, and
+            working with APIs to make websites interactive and engaging.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- ==================================== -->
+    <!-- PROJECTS SECTION – DARK NEON STYLE  -->
+    <!-- ==================================== -->
+
+    <section
+      id="projects"
+      class="w-full bg-[#0D1117] text-gray-300 font-['JetBrains_Mono']"
+    >
+      <div class="max-w-7xl mx-auto px-6 py-20">
+        <!-- Section Title -->
+        <h2 class="text-3xl font-semibold text-[#00FF9D] mb-12 text-center">
+          Projects
+        </h2>
+
+        <!-- Projects Grid -->
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+          <!-- =========================== -->
+          <!-- Project 1: Random User Generator -->
+          <!-- =========================== -->
+          <div
+            class="bg-[#161B22] border border-[#1f2937] p-6 rounded-lg flex flex-col justify-between hover:shadow-[0_0_15px_#00FF9D] transition"
+          >
+            <div>
+              <h3 class="text-xl font-semibold text-[#4CC9F0] mb-2">
+                Random User Generator
+              </h3>
+              <p class="text-gray-400 text-sm mb-4">
+                A simple web app that generates random user profiles including
+                name, email, and profile picture using a public API.
+              </p>
+
+              <ul class="text-gray-400 text-sm space-y-1 mb-4">
+                <li>• Generates a new random user with one click</li>
+                <li>• Shows profile photo, username, and email</li>
+                <li>• Clean, responsive UI</li>
+                <li>• Fast API rendering</li>
+              </ul>
+
+              <p class="text-[#00FF9D] text-xs">
+                Tech Stack:
+                <span
+                  class="inline-flex items-center px-3 py-1 text-xs font-medium rounded-full bg-[#161B22] text-[#00FF9D] border border-[#00FF9D]/30 mt-2"
+                >
+                  HTML
+                </span>
+                <span
+                  class="inline-flex items-center px-3 py-1 text-xs font-medium rounded-full bg-[#161B22] text-[#00FF9D] border border-[#00FF9D]/30 mt-2"
+                >
+                  CSS
+                </span>
+                <span
+                  class="inline-flex items-center px-3 py-1 text-xs font-medium rounded-full bg-[#161B22] text-[#00FF9D] border border-[#00FF9D]/30 mt-2"
+                >
+                  JavaScript
+                </span>
+                <span
+                  class="inline-flex items-center px-3 py-1 text-xs font-medium rounded-full bg-[#161B22] text-[#00FF9D] border border-[#00FF9D]/30 mt-2"
+                >
+                  API
+                </span>
+              </p>
+            </div>
+
+            <!-- Project Link -->
+            <a
+              href="https://random-user-generator-six-liard.vercel.app/"
+              target="_blank"
+              class="mt-5 inline-block px-4 py-2 text-sm border border-[#00FF9D] text-[#00FF9D] rounded-md text-center hover:bg-[#00FF9D] hover:text-[#0D1117] transition"
+            >
+              View Project →
+            </a>
+          </div>
+
+          <!-- =========================== -->
+          <!-- Project 2: High or Low Game -->
+          <!-- =========================== -->
+          <div
+            class="bg-[#161B22] border border-[#1f2937] p-6 rounded-lg flex flex-col justify-between hover:shadow-[0_0_15px_#00FF9D] transition"
+          >
+            <div>
+              <h3 class="text-xl font-semibold text-[#4CC9F0] mb-2">
+                High or Low – Number Guessing Game
+              </h3>
+              <p class="text-gray-400 text-sm mb-4">
+                A fun number-guessing game where users try to guess a secret
+                number between 1 and 100.
+              </p>
+
+              <ul class="text-gray-400 text-sm space-y-1 mb-4">
+                <li>• Random number generated every play</li>
+                <li>• Hints like "higher" or "lower"</li>
+                <li>• Simple interactive UI</li>
+                <li>• Fully responsive</li>
+              </ul>
+
+              <p class="text-[#00FF9D] text-xs">
+                Tech Stack:
+                <span
+                  class="inline-flex items-center px-3 py-1 text-xs font-medium rounded-full bg-[#161B22] text-[#00FF9D] border border-[#00FF9D]/30 mt-2"
+                >
+                  HTML
+                </span>
+                <span
+                  class="inline-flex items-center px-3 py-1 text-xs font-medium rounded-full bg-[#161B22] text-[#00FF9D] border border-[#00FF9D]/30 mt-2"
+                >
+                  CSS
+                </span>
+                <span
+                  class="inline-flex items-center px-3 py-1 text-xs font-medium rounded-full bg-[#161B22] text-[#00FF9D] border border-[#00FF9D]/30 mt-2"
+                >
+                  JavaScript
+                </span>
+              </p>
+            </div>
+
+            <!-- Project Link -->
+            <a
+              href="https://hi-low-game.vercel.app/"
+              target="_blank"
+              class="mt-5 inline-block px-4 py-2 text-sm border border-[#00FF9D] text-[#00FF9D] rounded-md text-center hover:bg-[#00FF9D] hover:text-[#0D1117] transition"
+            >
+              View Project →
+            </a>
+          </div>
+
+          <!-- =========================== -->
+          <!-- Project 3: Currency Converter -->
+          <!-- =========================== -->
+          <div
+            class="bg-[#161B22] border border-[#1f2937] p-6 rounded-lg flex flex-col justify-between hover:shadow-[0_0_15px_#00FF9D] transition"
+          >
+            <div>
+              <h3 class="text-xl font-semibold text-[#4CC9F0] mb-2">
+                Currency Converter
+              </h3>
+              <p class="text-gray-400 text-sm mb-4">
+                A React-based currency converter with live exchange rates and a
+                clean Tailwind UI.
+              </p>
+
+              <ul class="text-gray-400 text-sm space-y-1 mb-4">
+                <li>• Two synchronized currency fields</li>
+                <li>• Swap button functionality</li>
+                <li>• Live exchange rate API</li>
+                <li>• Clean Tailwind interface</li>
+                <li>• Component-based structure</li>
+              </ul>
+
+              <p class="text-[#00FF9D] text-xs">
+                Tech Stack:
+                <span
+                  class="inline-flex items-center px-3 py-1 text-xs font-medium rounded-full bg-[#161B22] text-[#00FF9D] border border-[#00FF9D]/30 mt-2"
+                >
+                  React
+                </span>
+                <span
+                  class="inline-flex items-center px-3 py-1 text-xs font-medium rounded-full bg-[#161B22] text-[#00FF9D] border border-[#00FF9D]/30 mt-2"
+                >
+                  Hooks
+                </span>
+                <span
+                  class="inline-flex items-center px-3 py-1 text-xs font-medium rounded-full bg-[#161B22] text-[#00FF9D] border border-[#00FF9D]/30 mt-2"
+                >
+                  Components
+                </span>
+                <span
+                  class="inline-flex items-center px-3 py-1 text-xs font-medium rounded-full bg-[#161B22] text-[#00FF9D] border border-[#00FF9D]/30 mt-2"
+                >
+                  API
+                </span>
+                <span
+                  class="inline-flex items-center px-3 py-1 text-xs font-medium rounded-full bg-[#161B22] text-[#00FF9D] border border-[#00FF9D]/30 mt-2"
+                >
+                  Tailwind CSS
+                </span>
+              </p>
+            </div>
+
+            <!-- Project Link -->
+            <a
+              href="https://currency-convertor-sigma-two.vercel.app/"
+              target="_blank"
+              class="mt-5 inline-block px-4 py-2 text-sm border border-[#00FF9D] text-[#00FF9D] rounded-md text-center hover:bg-[#00FF9D] hover:text-[#0D1117] transition"
+            >
+              View Project →
+            </a>
+          </div>
+
+          <!-- =========================== -->
+          <!-- Project 4: Password Generator -->
+          <!-- =========================== -->
+          <div
+            class="bg-[#161B22] border border-[#1f2937] p-6 rounded-lg flex flex-col justify-between hover:shadow-[0_0_15px_#00FF9D] transition"
+          >
+            <div>
+              <h3 class="text-xl font-semibold text-[#4CC9F0] mb-2">
+                Password Generator
+              </h3>
+              <p class="text-gray-400 text-sm mb-4">
+                A secure password generator with sliders, toggles, and one-click
+                copy.
+              </p>
+
+              <ul class="text-gray-400 text-sm space-y-1 mb-4">
+                <li>• Adjustable password length</li>
+                <li>• Toggle numbers + symbols</li>
+                <li>• Copy button</li>
+                <li>• Real-time preview</li>
+                <li>• Fully responsive UI</li>
+              </ul>
+
+              <p class="text-[#00FF9D] text-xs">
+                Tech Stack:
+                <span
+                  class="inline-flex items-center px-3 py-1 text-xs font-medium rounded-full bg-[#161B22] text-[#00FF9D] border border-[#00FF9D]/30 mt-2"
+                >
+                  React
+                </span>
+                <span
+                  class="inline-flex items-center px-3 py-1 text-xs font-medium rounded-full bg-[#161B22] text-[#00FF9D] border border-[#00FF9D]/30 mt-2"
+                >
+                  Tailwind CSS
+                </span>
+              </p>
+            </div>
+
+            <!-- Project Link -->
+            <a
+              href="https://password-generator-vert-chi.vercel.app/"
+              target="_blank"
+              class="mt-5 inline-block px-4 py-2 text-sm border border-[#00FF9D] text-[#00FF9D] rounded-md text-center hover:bg-[#00FF9D] hover:text-[#0D1117] transition"
+            >
+              View Project →
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skills" class="py-16 bg-[#0D1117]">
+      <div class="container mx-auto px-6 lg:px-12">
+        <h2 class="text-3xl font-semibold text-center text-[#00FF9D] mb-12">
+          Skills
+        </h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Frontend -->
+          <div
+            class="bg-[#161B22] p-6 rounded-xl shadow border border-[#1f2937]"
+          >
+            <h3 class="text-xl font-semibold mb-4 text-[#4CC9F0]">Frontend</h3>
+            <ul class="space-y-2 text-gray-300">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Tailwind</li>
+              <li>Responsive Design</li>
+            </ul>
+          </div>
+
+          <!-- Tools -->
+          <div
+            class="bg-[#161B22] p-6 rounded-xl shadow border border-[#1f2937]"
+          >
+            <h3 class="text-xl font-semibold mb-4 text-[#4CC9F0]">Tools</h3>
+            <ul class="space-y-2 text-gray-300">
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>VS Code</li>
+              <li>DevTools</li>
+              <li>NPM</li>
+            </ul>
+          </div>
+
+          <!-- API Work -->
+          <div
+            class="bg-[#161B22] p-6 rounded-xl shadow border border-[#1f2937]"
+          >
+            <h3 class="text-xl font-semibold mb-4 text-[#4CC9F0]">API Work</h3>
+            <ul class="space-y-2 text-gray-300">
+              <li>Fetch API</li>
+              <li>JSON</li>
+              <li>REST APIs</li>
+            </ul>
+          </div>
+
+          <!-- Soft Skills -->
+          <div
+            class="bg-[#161B22] p-6 rounded-xl shadow border border-[#1f2937]"
+          >
+            <h3 class="text-xl font-semibold mb-4 text-[#4CC9F0]">
+              Soft Skills
+            </h3>
+            <ul class="space-y-2 text-gray-300">
+              <li>Problem-Solving</li>
+              <li>UI/UX Mindset</li>
+              <li>Debugging</li>
+            </ul>
+          </div>
+
+          <!-- Learning -->
+          <div
+            class="bg-[#161B22] p-6 rounded-xl shadow border border-[#1f2937]"
+          >
+            <h3 class="text-xl font-semibold mb-4 text-[#4CC9F0]">Learning</h3>
+            <ul class="space-y-2 text-gray-300">
+              <li>Node.js</li>
+              <li>Express</li>
+              <li>MongoDB</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="py-16 bg-[#0D1117]">
+      <div class="container mx-auto px-6 lg:px-12 text-center">
+        <h2 class="text-3xl font-bold mb-6 text-[#00FF9D]">Let’s Connect</h2>
+
+        <p class="text-gray-300 max-w-2xl mx-auto mb-10">
+          I’m open to internships, frontend projects, and collaborations. Feel
+          free to reach out!
+        </p>
+
+        <div
+          class="max-w-xl mx-auto bg-[#161B22] p-8 rounded-xl shadow space-y-6"
+        >
+          <!-- Email -->
+          <div>
+            <p class="text-gray-400 text-sm">Email</p>
+            <a
+              href="mailto:harshsagathia@gmail.com"
+              class="text-lg font-medium text-blue-600 hover:underline"
+            >
+              harshsagathia@gmail.com
+            </a>
+          </div>
+
+          <!-- LinkedIn -->
+          <div>
+            <p class="text-gray-400 text-sm">LinkedIn</p>
+            <a
+              href="https://www.linkedin.com/in/harsh-sagathia/"
+              target="_blank"
+              class="text-lg font-medium text-blue-600 hover:underline"
+            >
+              LinkedIn Profile
+            </a>
+          </div>
+
+          <!-- GitHub -->
+          <div>
+            <p class="text-gray-400 text-sm">GitHub</p>
+            <a
+              href="http://github.com/Harsh26-star"
+              target="_blank"
+              class="text-lg font-medium text-blue-600 hover:underline"
+            >
+              GitHub Profile
+            </a>
+          </div>
+
+          <!-- Resume -->
+          <div>
+            <p class="text-gray-400 text-sm">Resume</p>
+            <a
+              href="#"
+              target="_blank"
+              class="text-lg font-medium text-blue-600 hover:underline"
+            >
+              Download Resume
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
