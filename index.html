@@ -20,9 +20,9 @@
     />
     <meta
       property="og:image"
-      content="https://yourdomain.com/assets/og-preview.png"
+      content="https://portfolio-website-ochre-eight-88.vercel.app/assets/og-preview.png"
     />
-    <meta property="og:url" content="https://yourdomain.com" />
+    <meta property="og:url" content="https://portfolio-website-ochre-eight-88.vercel.app" />
     <meta property="og:type" content="website" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -35,556 +35,344 @@
   </head>
   <body>
     <!-- =============================== -->
-    <!-- DARK NEON DEV-STYLE NAVBAR     -->
+    <!-- NAVBAR                          -->
     <!-- =============================== -->
-
     <nav
       class="w-full bg-[#0D1117] border-b border-[#161B22] font-['JetBrains_Mono'] fixed top-0 left-0 z-50"
     >
-      <div
-        class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between"
-      >
-        <!-- Left: Name + Role -->
+      <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <a href="#" class="flex flex-col">
-          <span class="text-xl font-semibold text-[#00FF9D] tracking-wide">
-            Harsh Sagathia
-          </span>
-          <span class="text-sm text-gray-400 -mt-1"> Front-end Developer </span>
+          <span class="text-xl font-semibold text-[#00FF9D] tracking-wide">Harsh Sagathia</span>
+          <span class="text-sm text-gray-400 -mt-1">Front-end Developer</span>
         </a>
-
-        <!-- Desktop Menu -->
         <ul class="hidden md:flex space-x-8 text-gray-300 text-sm font-medium">
-          <li>
-            <a href="#home" class="hover:text-[#4CC9F0] transition">Home</a>
-          </li>
-          <li>
-            <a href="#about" class="hover:text-[#4CC9F0] transition">About</a>
-          </li>
-          <li>
-            <a href="#projects" class="hover:text-[#4CC9F0] transition"
-              >Projects</a
-            >
-          </li>
-          <li>
-            <a href="#skills" class="hover:text-[#4CC9F0] transition">Skills</a>
-          </li>
-          <li>
-            <a href="#contact" class="hover:text-[#4CC9F0] transition"
-              >Contact</a
-            >
-          </li>
+          <li><a href="#home" class="hover:text-[#4CC9F0] transition">Home</a></li>
+          <li><a href="#about" class="hover:text-[#4CC9F0] transition">About</a></li>
+          <li><a href="#projects" class="hover:text-[#4CC9F0] transition">Projects</a></li>
+          <li><a href="#skills" class="hover:text-[#4CC9F0] transition">Skills</a></li>
+          <li><a href="#contact" class="hover:text-[#4CC9F0] transition">Contact</a></li>
         </ul>
-
-        <!-- Mobile Menu Button -->
-        <button
-          id="nav-toggle"
-          class="md:hidden text-[#00FF9D] text-2xl focus:outline-none"
-        >
-          &#9776;
-        </button>
+        <button id="nav-toggle" class="md:hidden text-[#00FF9D] text-2xl focus:outline-none">&#9776;</button>
       </div>
-
-      <!-- Mobile Dropdown -->
-      <div
-        id="mobile-menu"
-        class="hidden md:hidden px-6 pb-4 bg-[#0D1117] border-t border-[#161B22]"
-      >
+      <div id="mobile-menu" class="hidden md:hidden px-6 pb-4 bg-[#0D1117] border-t border-[#161B22]">
         <ul class="flex flex-col space-y-3 text-gray-300 text-sm">
-          <li>
-            <a href="#home" class="hover:text-[#4CC9F0] transition">Home</a>
-          </li>
-          <li>
-            <a href="#about" class="hover:text-[#4CC9F0] transition">About</a>
-          </li>
-          <li>
-            <a href="#projects" class="hover:text-[#4CC9F0] transition"
-              >Projects</a
-            >
-          </li>
-          <li>
-            <a href="#skills" class="hover:text-[#4CC9F0] transition">Skills</a>
-          </li>
-          <li>
-            <a href="#contact" class="hover:text-[#4CC9F0] transition"
-              >Contact</a
-            >
-          </li>
+          <li><a href="#home" class="hover:text-[#4CC9F0] transition">Home</a></li>
+          <li><a href="#about" class="hover:text-[#4CC9F0] transition">About</a></li>
+          <li><a href="#projects" class="hover:text-[#4CC9F0] transition">Projects</a></li>
+          <li><a href="#skills" class="hover:text-[#4CC9F0] transition">Skills</a></li>
+          <li><a href="#contact" class="hover:text-[#4CC9F0] transition">Contact</a></li>
         </ul>
       </div>
     </nav>
-    <!-- ==================================== -->
-    <!-- DARK NEON HERO SECTION (TAILWIND) – CENTERED TEXT -->
-    <!-- ==================================== -->
 
-    <section
-      id="home"
-      class="w-full bg-[#0D1117] text-gray-300 font-['JetBrains_Mono']"
-    >
-      <div
-        class="max-w-4xl mx-auto px-6 py-32 flex flex-col items-center text-center space-y-8"
-      >
-        <!-- Main Heading -->
-        <h1
-          class="text-4xl md:text-5xl font-semibold leading-tight text-[#00FF9D]"
-        >
+    <!-- =============================== -->
+    <!-- HERO                            -->
+    <!-- =============================== -->
+    <section id="home" class="w-full bg-[#0D1117] text-gray-300 font-['JetBrains_Mono']">
+      <div class="max-w-4xl mx-auto px-6 py-32 flex flex-col items-center text-center space-y-8">
+        <h1 class="text-4xl md:text-5xl font-semibold leading-tight text-[#00FF9D]">
           Hi, I'm Harsh.<br />
           <span class="text-gray-100">Frontend & Web Developer.</span>
         </h1>
-
-        <!-- Subtext -->
         <p class="text-gray-400 text-sm md:text-base max-w-md">
           I build fast, modern, and responsive websites using clean UI, reusable
           components, and optimized JavaScript. My focus is on performance,
           accessibility, and user-first design.
         </p>
-
-        <!-- CTA Buttons -->
-        <div
-          class="flex flex-col sm:flex-row sm:space-x-4 space-y-3 sm:space-y-0"
-        >
-          <!-- View Projects -->
+        <div class="flex flex-col sm:flex-row sm:space-x-4 space-y-3 sm:space-y-0">
           <a
             href="#projects"
             class="px-6 py-3 bg-[#00FF9D] text-[#0D1117] font-semibold border border-[#00FF9D] rounded-md shadow-md hover:bg-[#0D1117] hover:text-[#00FF9D] transition hover:scale-105"
-          >
-            View Projects
-          </a>
-
-          <!-- Download Resume -->
+          >View Projects</a>
           <a
             href="assets/Harsh_Sagathia_Resume.pdf"
             download
             class="px-6 py-3 border border-[#00FF9D] text-[#00FF9D] rounded-md hover:bg-[#00FF9D] hover:text-[#0D1117] transition hover:scale-105"
-          >
-            Download Resume
-          </a>
+          >Download Resume</a>
         </div>
       </div>
     </section>
 
-    <!-- ==================================== -->
-    <!-- DARK NEON ABOUT SECTION (TAILWIND)  -->
-    <!-- ==================================== -->
-
-    <section
-      id="about"
-      class="w-full bg-[#0D1117] text-gray-300 font-['JetBrains_Mono']"
-    >
-      <div
-        class="max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center"
-      >
-        <!-- ============================ -->
-        <!-- LEFT: IMAGE / ILLUSTRATION  -->
-        <!-- ============================ -->
+    <!-- =============================== -->
+    <!-- ABOUT                           -->
+    <!-- =============================== -->
+    <section id="about" class="w-full bg-[#0D1117] text-gray-300 font-['JetBrains_Mono']">
+      <div class="max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center">
         <div class="flex justify-center md:justify-start">
           <img
             src="assets/Harsh Professional image.jpg"
-            alt="Harsh Avatar"
+            alt="Harsh Sagathia"
             class="w-64 md:w-72 rounded-full drop-shadow-[0_0_15px_#00FF9D] hover:scale-105 transition-transform duration-300"
           />
         </div>
-
-        <!-- ============================ -->
-        <!-- RIGHT: TEXT CONTENT          -->
-        <!-- ============================ -->
         <div class="space-y-6">
-          <!-- Section Title -->
           <h2 class="text-3xl font-semibold text-[#00FF9D]">About Me</h2>
-
-          <!-- Description -->
           <p class="text-gray-400 text-sm md:text-base leading-relaxed">
-            Hi, I'm Harsh, a Frontend Developer currently learning Full Stack
-            development. I love building clean, responsive, and modern websites
-            that offer smooth user experiences.
+            I'm Harsh, a Frontend Developer building full-stack web applications
+            with a focus on real-world problems. I enjoy clean UI, solid architecture,
+            and shipping things that actually work.
           </p>
-
           <p class="text-gray-400 text-sm md:text-base leading-relaxed">
             I work with
-            <span class="text-[#4CC9F0]"
-              >HTML, CSS, JavaScript, React, Tailwind CSS</span
-            >, and tools like
-            <span class="text-[#4CC9F0]">Git and VS Code</span>, creating
-            functional UI/UX with responsive design using Flexbox and Grid.
+            <span class="text-[#4CC9F0]">React, Vite, Tailwind CSS, and Supabase</span>,
+            building everything from authentication systems to attendance platforms.
+            I use <span class="text-[#4CC9F0]">Git, GitHub, and Vercel</span> for
+            version control and deployment.
           </p>
-
           <p class="text-gray-400 text-sm md:text-base leading-relaxed">
-            I'm currently pursuing BCA (3rd year) and actively looking for web
-            development internships to apply my skills in real-world projects. I
-            enjoy UI/UX design, solving problems, creating animations, and
-            working with APIs to make websites interactive and engaging.
+            Currently pursuing BCA (3rd year) at Navneet College, Mumbai, and
+            actively looking for frontend internships to grow in a product-driven team.
           </p>
         </div>
       </div>
     </section>
-    <!-- ==================================== -->
-    <!-- PROJECTS SECTION – DARK NEON STYLE  -->
-    <!-- ==================================== -->
 
-    <section
-      id="projects"
-      class="w-full bg-[#0D1117] text-gray-300 font-['JetBrains_Mono']"
-    >
+    <!-- =============================== -->
+    <!-- PROJECTS                        -->
+    <!-- =============================== -->
+    <section id="projects" class="w-full bg-[#0D1117] text-gray-300 font-['JetBrains_Mono']">
       <div class="max-w-7xl mx-auto px-6 py-20">
-        <!-- Section Title -->
-        <h2 class="text-3xl font-semibold text-[#00FF9D] mb-12 text-center">
-          Projects
-        </h2>
+        <h2 class="text-3xl font-semibold text-[#00FF9D] mb-4 text-center">Projects</h2>
+        <p class="text-center text-gray-500 text-sm mb-12">Featured work — full-stack and React projects</p>
 
-        <!-- Projects Grid -->
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
-          <!-- =========================== -->
-          <!-- Project 1: Random User Generator -->
-          <!-- =========================== -->
-          <div
-            class="bg-[#161B22] border border-[#1f2937] p-6 rounded-lg flex flex-col justify-between hover:shadow-[0_0_15px_#00FF9D] transition"
-          >
+        <!-- Featured Projects -->
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10 mb-16">
+
+          <!-- Mark'd -->
+          <div class="bg-[#161B22] border border-[#00FF9D]/30 p-6 rounded-lg flex flex-col justify-between hover:shadow-[0_0_15px_#00FF9D] transition relative">
+            <span class="absolute top-4 right-4 text-xs px-2 py-1 rounded-full bg-[#00FF9D]/10 text-[#00FF9D] border border-[#00FF9D]/30">In Progress</span>
             <div>
-              <h3 class="text-xl font-semibold text-[#4CC9F0] mb-2">
-                Random User Generator
-              </h3>
+              <h3 class="text-xl font-semibold text-[#4CC9F0] mb-2">Mark'd – Attendance System</h3>
               <p class="text-gray-400 text-sm mb-4">
-                A simple web app that generates random user profiles including
-                name, email, and profile picture using a public API.
+                A dual-mode attendance authentication system using time-bound QR codes
+                with a 4-digit OTP fallback. Built for real institutional use with
+                role-based access for teachers and students.
               </p>
-
               <ul class="text-gray-400 text-sm space-y-1 mb-4">
-                <li>• Generates a new random user with one click</li>
-                <li>• Shows profile photo, username, and email</li>
-                <li>• Clean, responsive UI</li>
-                <li>• Fast API rendering</li>
+                <li>• Time-bound QR code generation per session</li>
+                <li>• 4-digit OTP fallback for offline reliability</li>
+                <li>• Role-based access (teacher / student)</li>
+                <li>• 6-table normalized PostgreSQL schema on Supabase</li>
               </ul>
-
-              <p class="text-[#00FF9D] text-xs">
-                Tech Stack:
-                <span
-                  class="inline-flex items-center px-3 py-1 text-xs font-medium rounded-full bg-[#161B22] text-[#00FF9D] border border-[#00FF9D]/30 mt-2"
-                >
-                  HTML
-                </span>
-                <span
-                  class="inline-flex items-center px-3 py-1 text-xs font-medium rounded-full bg-[#161B22] text-[#00FF9D] border border-[#00FF9D]/30 mt-2"
-                >
-                  CSS
-                </span>
-                <span
-                  class="inline-flex items-center px-3 py-1 text-xs font-medium rounded-full bg-[#161B22] text-[#00FF9D] border border-[#00FF9D]/30 mt-2"
-                >
-                  JavaScript
-                </span>
-                <span
-                  class="inline-flex items-center px-3 py-1 text-xs font-medium rounded-full bg-[#161B22] text-[#00FF9D] border border-[#00FF9D]/30 mt-2"
-                >
-                  API
-                </span>
-              </p>
+              <p class="text-[#00FF9D] text-xs mb-3">Tech Stack:</p>
+              <div class="flex flex-wrap gap-2">
+                <span class="px-3 py-1 text-xs rounded-full bg-[#161B22] text-[#00FF9D] border border-[#00FF9D]/30">React</span>
+                <span class="px-3 py-1 text-xs rounded-full bg-[#161B22] text-[#00FF9D] border border-[#00FF9D]/30">Vite</span>
+                <span class="px-3 py-1 text-xs rounded-full bg-[#161B22] text-[#00FF9D] border border-[#00FF9D]/30">Tailwind CSS</span>
+                <span class="px-3 py-1 text-xs rounded-full bg-[#161B22] text-[#00FF9D] border border-[#00FF9D]/30">Supabase</span>
+              </div>
             </div>
+            <div class="flex gap-3 mt-5">
+              <a href="https://github.com/Harsh26-star/Mark-d" target="_blank"
+                class="flex-1 px-4 py-2 text-sm border border-[#00FF9D] text-[#00FF9D] rounded-md text-center hover:bg-[#00FF9D] hover:text-[#0D1117] transition">
+                GitHub →
+              </a>
+            </div>
+          </div>
 
-            <!-- Project Link -->
-            <a
-              href="https://random-user-generator-six-liard.vercel.app/"
-              target="_blank"
-              class="mt-5 inline-block px-4 py-2 text-sm border border-[#00FF9D] text-[#00FF9D] rounded-md text-center hover:bg-[#00FF9D] hover:text-[#0D1117] transition"
-            >
+          <!-- TaskFlow -->
+          <div class="bg-[#161B22] border border-[#1f2937] p-6 rounded-lg flex flex-col justify-between hover:shadow-[0_0_15px_#00FF9D] transition">
+            <div>
+              <h3 class="text-xl font-semibold text-[#4CC9F0] mb-2">TaskFlow – Full-Stack Todo App</h3>
+              <p class="text-gray-400 text-sm mb-4">
+                A full-stack task management app with Supabase authentication,
+                protected routes, and persistent per-user task storage.
+              </p>
+              <ul class="text-gray-400 text-sm space-y-1 mb-4">
+                <li>• Signup, email confirmation, login & logout flow</li>
+                <li>• Protected routes with session management</li>
+                <li>• Real-time Supabase database integration</li>
+                <li>• User-scoped data (each user sees only their tasks)</li>
+              </ul>
+              <p class="text-[#00FF9D] text-xs mb-3">Tech Stack:</p>
+              <div class="flex flex-wrap gap-2">
+                <span class="px-3 py-1 text-xs rounded-full bg-[#161B22] text-[#00FF9D] border border-[#00FF9D]/30">React</span>
+                <span class="px-3 py-1 text-xs rounded-full bg-[#161B22] text-[#00FF9D] border border-[#00FF9D]/30">Vite</span>
+                <span class="px-3 py-1 text-xs rounded-full bg-[#161B22] text-[#00FF9D] border border-[#00FF9D]/30">Supabase</span>
+                <span class="px-3 py-1 text-xs rounded-full bg-[#161B22] text-[#00FF9D] border border-[#00FF9D]/30">Tailwind CSS</span>
+              </div>
+            </div>
+            <div class="flex gap-3 mt-5">
+              <a href="https://github.com/Harsh26-star/taskflow" target="_blank"
+                class="flex-1 px-4 py-2 text-sm border border-[#00FF9D] text-[#00FF9D] rounded-md text-center hover:bg-[#00FF9D] hover:text-[#0D1117] transition">
+                GitHub →
+              </a>
+            </div>
+          </div>
+
+          <!-- Pomodoro Timer -->
+          <div class="bg-[#161B22] border border-[#1f2937] p-6 rounded-lg flex flex-col justify-between hover:shadow-[0_0_15px_#00FF9D] transition">
+            <div>
+              <h3 class="text-xl font-semibold text-[#4CC9F0] mb-2">Pomodoro Timer</h3>
+              <p class="text-gray-400 text-sm mb-4">
+                A focus timer app with a glassmorphism dark UI, configurable
+                work/break intervals, and sound alerts.
+              </p>
+              <ul class="text-gray-400 text-sm space-y-1 mb-4">
+                <li>• Configurable work & break intervals</li>
+                <li>• Sound alerts on session end</li>
+                <li>• Glassmorphism dark theme UI</li>
+                <li>• Proper useEffect cleanup to prevent memory leaks</li>
+              </ul>
+              <p class="text-[#00FF9D] text-xs mb-3">Tech Stack:</p>
+              <div class="flex flex-wrap gap-2">
+                <span class="px-3 py-1 text-xs rounded-full bg-[#161B22] text-[#00FF9D] border border-[#00FF9D]/30">React</span>
+                <span class="px-3 py-1 text-xs rounded-full bg-[#161B22] text-[#00FF9D] border border-[#00FF9D]/30">Vite</span>
+                <span class="px-3 py-1 text-xs rounded-full bg-[#161B22] text-[#00FF9D] border border-[#00FF9D]/30">Tailwind CSS</span>
+              </div>
+            </div>
+            <div class="flex gap-3 mt-5">
+              <a href="https://pomodoro-timer-iota-bice.vercel.app" target="_blank"
+                class="flex-1 px-4 py-2 text-sm border border-[#00FF9D] text-[#00FF9D] rounded-md text-center hover:bg-[#00FF9D] hover:text-[#0D1117] transition">
+                Live Demo →
+              </a>
+              <a href="https://github.com/Harsh26-star/pomodoro-timer" target="_blank"
+                class="flex-1 px-4 py-2 text-sm border border-[#4CC9F0] text-[#4CC9F0] rounded-md text-center hover:bg-[#4CC9F0] hover:text-[#0D1117] transition">
+                GitHub →
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Other Projects -->
+        <h3 class="text-lg font-semibold text-gray-500 mb-6">Other Projects</h3>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+          <!-- Currency Converter -->
+          <div class="bg-[#161B22] border border-[#1f2937] p-5 rounded-lg flex flex-col justify-between hover:shadow-[0_0_10px_#1f2937] transition">
+            <div>
+              <h3 class="text-lg font-semibold text-[#4CC9F0] mb-2">Currency Converter</h3>
+              <p class="text-gray-500 text-sm mb-3">React-based converter with live exchange rates, swap button, and Tailwind UI.</p>
+              <div class="flex flex-wrap gap-2">
+                <span class="px-2 py-1 text-xs rounded-full bg-[#0D1117] text-gray-400 border border-[#1f2937]">React</span>
+                <span class="px-2 py-1 text-xs rounded-full bg-[#0D1117] text-gray-400 border border-[#1f2937]">Tailwind CSS</span>
+                <span class="px-2 py-1 text-xs rounded-full bg-[#0D1117] text-gray-400 border border-[#1f2937]">API</span>
+              </div>
+            </div>
+            <a href="https://currency-convertor-sigma-two.vercel.app/" target="_blank"
+              class="mt-4 inline-block px-4 py-2 text-sm border border-[#1f2937] text-gray-400 rounded-md text-center hover:border-[#00FF9D] hover:text-[#00FF9D] transition">
               View Project →
             </a>
           </div>
 
-          <!-- =========================== -->
-          <!-- Project 2: High or Low Game -->
-          <!-- =========================== -->
-          <div
-            class="bg-[#161B22] border border-[#1f2937] p-6 rounded-lg flex flex-col justify-between hover:shadow-[0_0_15px_#00FF9D] transition"
-          >
+          <!-- Password Generator -->
+          <div class="bg-[#161B22] border border-[#1f2937] p-5 rounded-lg flex flex-col justify-between hover:shadow-[0_0_10px_#1f2937] transition">
             <div>
-              <h3 class="text-xl font-semibold text-[#4CC9F0] mb-2">
-                High or Low – Number Guessing Game
-              </h3>
-              <p class="text-gray-400 text-sm mb-4">
-                A fun number-guessing game where users try to guess a secret
-                number between 1 and 100.
-              </p>
-
-              <ul class="text-gray-400 text-sm space-y-1 mb-4">
-                <li>• Random number generated every play</li>
-                <li>• Hints like "higher" or "lower"</li>
-                <li>• Simple interactive UI</li>
-                <li>• Fully responsive</li>
-              </ul>
-
-              <p class="text-[#00FF9D] text-xs">
-                Tech Stack:
-                <span
-                  class="inline-flex items-center px-3 py-1 text-xs font-medium rounded-full bg-[#161B22] text-[#00FF9D] border border-[#00FF9D]/30 mt-2"
-                >
-                  HTML
-                </span>
-                <span
-                  class="inline-flex items-center px-3 py-1 text-xs font-medium rounded-full bg-[#161B22] text-[#00FF9D] border border-[#00FF9D]/30 mt-2"
-                >
-                  CSS
-                </span>
-                <span
-                  class="inline-flex items-center px-3 py-1 text-xs font-medium rounded-full bg-[#161B22] text-[#00FF9D] border border-[#00FF9D]/30 mt-2"
-                >
-                  JavaScript
-                </span>
-              </p>
+              <h3 class="text-lg font-semibold text-[#4CC9F0] mb-2">Password Generator</h3>
+              <p class="text-gray-500 text-sm mb-3">Secure password generator with length slider, toggles, and one-click copy.</p>
+              <div class="flex flex-wrap gap-2">
+                <span class="px-2 py-1 text-xs rounded-full bg-[#0D1117] text-gray-400 border border-[#1f2937]">React</span>
+                <span class="px-2 py-1 text-xs rounded-full bg-[#0D1117] text-gray-400 border border-[#1f2937]">Tailwind CSS</span>
+              </div>
             </div>
-
-            <!-- Project Link -->
-            <a
-              href="https://hi-low-game.vercel.app/"
-              target="_blank"
-              class="mt-5 inline-block px-4 py-2 text-sm border border-[#00FF9D] text-[#00FF9D] rounded-md text-center hover:bg-[#00FF9D] hover:text-[#0D1117] transition"
-            >
+            <a href="https://password-generator-vert-chi.vercel.app/" target="_blank"
+              class="mt-4 inline-block px-4 py-2 text-sm border border-[#1f2937] text-gray-400 rounded-md text-center hover:border-[#00FF9D] hover:text-[#00FF9D] transition">
               View Project →
             </a>
           </div>
 
-          <!-- =========================== -->
-          <!-- Project 3: Currency Converter -->
-          <!-- =========================== -->
-          <div
-            class="bg-[#161B22] border border-[#1f2937] p-6 rounded-lg flex flex-col justify-between hover:shadow-[0_0_15px_#00FF9D] transition"
-          >
+          <!-- Random User Generator -->
+          <div class="bg-[#161B22] border border-[#1f2937] p-5 rounded-lg flex flex-col justify-between hover:shadow-[0_0_10px_#1f2937] transition">
             <div>
-              <h3 class="text-xl font-semibold text-[#4CC9F0] mb-2">
-                Currency Converter
-              </h3>
-              <p class="text-gray-400 text-sm mb-4">
-                A React-based currency converter with live exchange rates and a
-                clean Tailwind UI.
-              </p>
-
-              <ul class="text-gray-400 text-sm space-y-1 mb-4">
-                <li>• Two synchronized currency fields</li>
-                <li>• Swap button functionality</li>
-                <li>• Live exchange rate API</li>
-                <li>• Clean Tailwind interface</li>
-                <li>• Component-based structure</li>
-              </ul>
-
-              <p class="text-[#00FF9D] text-xs">
-                Tech Stack:
-                <span
-                  class="inline-flex items-center px-3 py-1 text-xs font-medium rounded-full bg-[#161B22] text-[#00FF9D] border border-[#00FF9D]/30 mt-2"
-                >
-                  React
-                </span>
-                <span
-                  class="inline-flex items-center px-3 py-1 text-xs font-medium rounded-full bg-[#161B22] text-[#00FF9D] border border-[#00FF9D]/30 mt-2"
-                >
-                  Hooks
-                </span>
-                <span
-                  class="inline-flex items-center px-3 py-1 text-xs font-medium rounded-full bg-[#161B22] text-[#00FF9D] border border-[#00FF9D]/30 mt-2"
-                >
-                  Components
-                </span>
-                <span
-                  class="inline-flex items-center px-3 py-1 text-xs font-medium rounded-full bg-[#161B22] text-[#00FF9D] border border-[#00FF9D]/30 mt-2"
-                >
-                  API
-                </span>
-                <span
-                  class="inline-flex items-center px-3 py-1 text-xs font-medium rounded-full bg-[#161B22] text-[#00FF9D] border border-[#00FF9D]/30 mt-2"
-                >
-                  Tailwind CSS
-                </span>
-              </p>
+              <h3 class="text-lg font-semibold text-[#4CC9F0] mb-2">Random User Generator</h3>
+              <p class="text-gray-500 text-sm mb-3">Fetches random user profiles (name, email, photo) from a public API on each click.</p>
+              <div class="flex flex-wrap gap-2">
+                <span class="px-2 py-1 text-xs rounded-full bg-[#0D1117] text-gray-400 border border-[#1f2937]">HTML</span>
+                <span class="px-2 py-1 text-xs rounded-full bg-[#0D1117] text-gray-400 border border-[#1f2937]">CSS</span>
+                <span class="px-2 py-1 text-xs rounded-full bg-[#0D1117] text-gray-400 border border-[#1f2937]">JavaScript</span>
+                <span class="px-2 py-1 text-xs rounded-full bg-[#0D1117] text-gray-400 border border-[#1f2937]">API</span>
+              </div>
             </div>
-
-            <!-- Project Link -->
-            <a
-              href="https://currency-convertor-sigma-two.vercel.app/"
-              target="_blank"
-              class="mt-5 inline-block px-4 py-2 text-sm border border-[#00FF9D] text-[#00FF9D] rounded-md text-center hover:bg-[#00FF9D] hover:text-[#0D1117] transition"
-            >
+            <a href="https://random-user-generator-six-liard.vercel.app/" target="_blank"
+              class="mt-4 inline-block px-4 py-2 text-sm border border-[#1f2937] text-gray-400 rounded-md text-center hover:border-[#00FF9D] hover:text-[#00FF9D] transition">
               View Project →
             </a>
           </div>
 
-          <!-- =========================== -->
-          <!-- Project 4: Password Generator -->
-          <!-- =========================== -->
-          <div
-            class="bg-[#161B22] border border-[#1f2937] p-6 rounded-lg flex flex-col justify-between hover:shadow-[0_0_15px_#00FF9D] transition"
-          >
-            <div>
-              <h3 class="text-xl font-semibold text-[#4CC9F0] mb-2">
-                Password Generator
-              </h3>
-              <p class="text-gray-400 text-sm mb-4">
-                A secure password generator with sliders, toggles, and one-click
-                copy.
-              </p>
-
-              <ul class="text-gray-400 text-sm space-y-1 mb-4">
-                <li>• Adjustable password length</li>
-                <li>• Toggle numbers + symbols</li>
-                <li>• Copy button</li>
-                <li>• Real-time preview</li>
-                <li>• Fully responsive UI</li>
-              </ul>
-
-              <p class="text-[#00FF9D] text-xs">
-                Tech Stack:
-                <span
-                  class="inline-flex items-center px-3 py-1 text-xs font-medium rounded-full bg-[#161B22] text-[#00FF9D] border border-[#00FF9D]/30 mt-2"
-                >
-                  React
-                </span>
-                <span
-                  class="inline-flex items-center px-3 py-1 text-xs font-medium rounded-full bg-[#161B22] text-[#00FF9D] border border-[#00FF9D]/30 mt-2"
-                >
-                  Tailwind CSS
-                </span>
-              </p>
-            </div>
-
-            <!-- Project Link -->
-            <a
-              href="https://password-generator-vert-chi.vercel.app/"
-              target="_blank"
-              class="mt-5 inline-block px-4 py-2 text-sm border border-[#00FF9D] text-[#00FF9D] rounded-md text-center hover:bg-[#00FF9D] hover:text-[#0D1117] transition"
-            >
-              View Project →
-            </a>
-          </div>
         </div>
       </div>
     </section>
+
+    <!-- =============================== -->
+    <!-- SKILLS                          -->
+    <!-- =============================== -->
     <section id="skills" class="py-16 bg-[#0D1117]">
       <div class="container mx-auto px-6 lg:px-12">
-        <h2 class="text-3xl font-semibold text-center text-[#00FF9D] mb-12">
-          Skills
-        </h2>
-
+        <h2 class="text-3xl font-semibold text-center text-[#00FF9D] mb-12">Skills</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
           <!-- Frontend -->
-          <div
-            class="bg-[#161B22] p-6 rounded-xl shadow border border-[#1f2937]"
-          >
+          <div class="bg-[#161B22] p-6 rounded-xl shadow border border-[#1f2937]">
             <h3 class="text-xl font-semibold mb-4 text-[#4CC9F0]">Frontend</h3>
             <ul class="space-y-2 text-gray-300">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>React</li>
-              <li>Tailwind</li>
+              <li>HTML5 & CSS3</li>
+              <li>JavaScript (ES6+)</li>
+              <li>React.js</li>
+              <li>Vite</li>
+              <li>Tailwind CSS</li>
               <li>Responsive Design</li>
             </ul>
           </div>
 
+          <!-- Backend & Database -->
+          <div class="bg-[#161B22] p-6 rounded-xl shadow border border-[#1f2937]">
+            <h3 class="text-xl font-semibold mb-4 text-[#4CC9F0]">Backend & Database</h3>
+            <ul class="space-y-2 text-gray-300">
+              <li>Supabase</li>
+              <li>PostgreSQL</li>
+              <li>REST APIs</li>
+              <li>Supabase Auth</li>
+              <li>Row Level Security</li>
+            </ul>
+          </div>
+
           <!-- Tools -->
-          <div
-            class="bg-[#161B22] p-6 rounded-xl shadow border border-[#1f2937]"
-          >
+          <div class="bg-[#161B22] p-6 rounded-xl shadow border border-[#1f2937]">
             <h3 class="text-xl font-semibold mb-4 text-[#4CC9F0]">Tools</h3>
             <ul class="space-y-2 text-gray-300">
-              <li>Git</li>
-              <li>GitHub</li>
+              <li>Git & GitHub</li>
               <li>VS Code</li>
-              <li>DevTools</li>
+              <li>Vercel</li>
               <li>NPM</li>
+              <li>Chrome DevTools</li>
             </ul>
           </div>
 
-          <!-- API Work -->
-          <div
-            class="bg-[#161B22] p-6 rounded-xl shadow border border-[#1f2937]"
-          >
-            <h3 class="text-xl font-semibold mb-4 text-[#4CC9F0]">API Work</h3>
-            <ul class="space-y-2 text-gray-300">
-              <li>Fetch API</li>
-              <li>JSON</li>
-              <li>REST APIs</li>
-            </ul>
-          </div>
-
-          <!-- Soft Skills -->
-          <div
-            class="bg-[#161B22] p-6 rounded-xl shadow border border-[#1f2937]"
-          >
-            <h3 class="text-xl font-semibold mb-4 text-[#4CC9F0]">
-              Soft Skills
-            </h3>
-            <ul class="space-y-2 text-gray-300">
-              <li>Problem-Solving</li>
-              <li>UI/UX Mindset</li>
-              <li>Debugging</li>
-            </ul>
-          </div>
-
-          <!-- Learning -->
-          <div
-            class="bg-[#161B22] p-6 rounded-xl shadow border border-[#1f2937]"
-          >
-            <h3 class="text-xl font-semibold mb-4 text-[#4CC9F0]">Learning</h3>
-            <ul class="space-y-2 text-gray-300">
-              <li>Node.js</li>
-              <li>Express</li>
-              <li>MongoDB</li>
-            </ul>
-          </div>
         </div>
       </div>
     </section>
+
+    <!-- =============================== -->
+    <!-- CONTACT                         -->
+    <!-- =============================== -->
     <section id="contact" class="py-16 bg-[#0D1117]">
       <div class="container mx-auto px-6 lg:px-12 text-center">
-        <h2 class="text-3xl font-bold mb-6 text-[#00FF9D]">Let’s Connect</h2>
-
+        <h2 class="text-3xl font-bold mb-6 text-[#00FF9D]">Let's Connect</h2>
         <p class="text-gray-300 max-w-2xl mx-auto mb-10">
-          I’m open to internships, frontend projects, and collaborations. Feel
-          free to reach out!
+          I'm open to internships, frontend projects, and collaborations. Feel free to reach out!
         </p>
-
-        <div
-          class="max-w-xl mx-auto bg-[#161B22] p-8 rounded-xl shadow space-y-6"
-        >
-          <!-- Email -->
+        <div class="max-w-xl mx-auto bg-[#161B22] p-8 rounded-xl shadow space-y-6">
           <div>
             <p class="text-gray-400 text-sm">Email</p>
-            <a
-              href="mailto:harshsagathia@gmail.com"
-              class="text-lg font-medium text-blue-600 hover:underline"
-            >
+            <a href="mailto:harshsagathia@gmail.com" class="text-lg font-medium text-[#4CC9F0] hover:underline">
               harshsagathia@gmail.com
             </a>
           </div>
-
-          <!-- LinkedIn -->
           <div>
             <p class="text-gray-400 text-sm">LinkedIn</p>
-            <a
-              href="https://www.linkedin.com/in/harsh-sagathia/"
-              target="_blank"
-              class="text-lg font-medium text-blue-600 hover:underline"
-            >
-              LinkedIn Profile
+            <a href="https://www.linkedin.com/in/harsh-sagathia/" target="_blank" class="text-lg font-medium text-[#4CC9F0] hover:underline">
+              linkedin.com/in/harsh-sagathia
             </a>
           </div>
-
-          <!-- GitHub -->
           <div>
             <p class="text-gray-400 text-sm">GitHub</p>
-            <a
-              href="http://github.com/Harsh26-star"
-              target="_blank"
-              class="text-lg font-medium text-blue-600 hover:underline"
-            >
-              GitHub Profile
+            <a href="https://github.com/Harsh26-star" target="_blank" class="text-lg font-medium text-[#4CC9F0] hover:underline">
+              github.com/Harsh26-star
             </a>
           </div>
-
-          <!-- Resume -->
           <div>
             <p class="text-gray-400 text-sm">Resume</p>
-            <a
-              href="assets/Harsh_Sagathia_Resume.pdf"
-              target="_blank"
-              class="text-lg font-medium text-blue-600 hover:underline"
-            >
+            <a href="assets/Harsh_Sagathia_Resume.pdf" download class="text-lg font-medium text-[#4CC9F0] hover:underline">
               Download Resume
             </a>
           </div>
